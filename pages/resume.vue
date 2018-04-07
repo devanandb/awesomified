@@ -1,16 +1,7 @@
 <template>
 	<section class="container">
-		<div>
 		<global-header/>
-			<app-logo/>
-			<h1 class="title">
-				devanandb
-			</h1>
-			<h2 class="subtitle">
-				Front End Evangelist
-			</h2>
-			
-		</div>
+		THis is where resume would go
 	</section>
 </template>
 
@@ -35,11 +26,7 @@
 
 <style>
 	.container {
-		min-height: 100vh;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
+		
 	}
 
 	.title {
