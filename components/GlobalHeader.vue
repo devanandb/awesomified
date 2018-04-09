@@ -1,13 +1,21 @@
 <template>
-	<div>
-		<!-- This is global heade -->
+	<div class="header">
+		<div class="logo">
+			devanandb
+		</div>
 	</div>
 </template>
 
 <style>
-	header {
-		background-color: #000;
-		height: 200px;
-		widows: 100%;
+	.header {
+		padding: 40px 0px;
+	}
+
+	.logo {
+		/*font-family: Futura-Medium;*/
+		font-size: 40px;
+		color: #FFFFFF;
+		letter-spacing: 0;
+		text-align: left;
 	}
 </style>
