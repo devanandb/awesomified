@@ -2,12 +2,15 @@
 	<div class="container">
 		<global-header/>
 			<!-- <app-logo/> -->
-			
 		<section class="hero">
-			<div class="txt-blk">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, cupiditate.</div>
-			<div class="img-blk">
-				<div class="browser-fr">
-					<browser-frame></browser-frame>
+			<div class="columns">
+				<div class="column is-two-fifths">
+					<div class="txt-blk">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, cupiditate.</div>
+				</div>
+				<div class="column">
+					<div class="browser-fr">
+						<browser-frame></browser-frame>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -37,17 +40,8 @@
 <style>
 	body {
 		background-image: linear-gradient(-45deg, #9B42DA 0%, #51509C 62%);
-		color: #fff;
-		margin: 0px;
-		padding: 0px;
-	}
-	.container {
 		min-height: 100vh;
-		width: 1200px;
-		margin: auto;
-		
 	}
-
 	.hero {
 		vertical-align: middle;
 		margin-top: 40px;
@@ -59,11 +53,8 @@
 		letter-spacing: 0;
 		text-align: left;
 		line-height: 47px;
-		width: 500px;
-		display: inline-block;
 		/*margin-top: 200px;*/
 		vertical-align: middle;
-		margin-right: 50px;
 	}
 	.hero .img-blk {
 		display: inline-block;
@@ -71,12 +62,13 @@
 	}
 	
 	.browser-fr {
-		width: 600px;
+		/*width: 600px;*/
+		margin: 0px 0px 0px 100px;
 	}
 
 
-	.title {
-		font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+	/*.title {
+		font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
 		display: block;
 		font-weight: 300;
 		font-size: 100px;
@@ -94,5 +86,5 @@
 
 	.links {
 		padding-top: 15px;
-	}
+	}*/
 </style>
