@@ -5,7 +5,11 @@
 		<section class="hero">
 			<div class="columns">
 				<div class="column is-two-fifths">
-					<div class="txt-blk">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, cupiditate.</div>
+					<div class="txt-blk">
+						<h1>Hi. I'm Devanand, a passionate Front-end developer. Rare.</h1>
+						<p>Jack of all Web trades, master of a growing list. My passion lies in crafiting web experiences through UI and Interactions. My current toolset allows me to do just that and more.</p>
+					</div>
+					
 				</div>
 				<div class="column">
 					<div class="browser-fr">
@@ -47,14 +51,22 @@
 		margin-top: 40px;
 	}
 	.hero .txt-blk {
-		font-family: Helvetica;
-		font-size: 28px;
 		color: #FFFFFF;
-		letter-spacing: 0;
-		text-align: left;
-		line-height: 47px;
-		/*margin-top: 200px;*/
+		margin-top: 100px;
 		vertical-align: middle;
+	}
+	.txt-blk p {
+		font-family: sans-serif;
+		font-size: 20px;
+		line-height: 28px;
+		margin-top: 26px;
+		letter-spacing: 0.1px;
+	}
+	.txt-blk h1 {
+		font-family: Helvetica, sans-serif; 
+		font-size: 28px;
+		line-height: 44px;
+		font-weight: 600;
 	}
 	.hero .img-blk {
 		display: inline-block;

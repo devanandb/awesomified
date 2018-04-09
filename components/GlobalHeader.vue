@@ -1,7 +1,7 @@
 <template>
 	<div class="header">
 		<div class="logo">
-			devanandb
+			devanandb.
 		</div>
 	</div>
 </template>
@@ -12,8 +12,9 @@
 	}
 
 	.logo {
-		/*font-family: Futura-Medium;*/
-		font-size: 40px;
+		font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+		font-size: 30px;
+		font-weight: 600;
 		color: #FFFFFF;
 		letter-spacing: 0;
 		text-align: left;

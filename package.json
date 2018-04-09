@@ -5,7 +5,7 @@
   "author": "Devanand",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt & tlapse --every 5m --directory ./screens -- localhost:3000",
     "build": "nuxt build",
     "start": "pm2 start ./node_modules/nuxt/bin/nuxt-start -i max --attach",
     "generate": "nuxt generate",
