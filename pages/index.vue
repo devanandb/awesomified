@@ -7,7 +7,7 @@
 				<div class="column is-two-fifths">
 					<div class="txt-blk">
 						<h1>Hi. I'm Devanand, a passionate Front-end developer. Rare.</h1>
-						<p>Jack of all Web trades, master of a growing list. My passion lies in crafiting web experiences through UI and Interactions. My current toolset allows me to do just that and more.</p>
+						<p>Jack of all Web trades, master of a growing list. My passion lies in crafting web experiences through UI and Interactions. My current toolset allows me to do just that and more.</p>
 					</div>
 					
 				</div>
