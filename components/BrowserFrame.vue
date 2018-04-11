@@ -51,8 +51,10 @@
 
 		}
 		.window {
-			height: 400px;
+			height: 450px;
 			overflow-y: scroll;
+			z-index: 10;
+			position: relative;
 		}
 	}
 </style>

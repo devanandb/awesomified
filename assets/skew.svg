@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" transform="rotate(45deg)">
+	<defs>
+	    <linearGradient x1="50%" y1="0%" x2="50%" y2="97.4643244%" id="linearGradient-1">
+	        <stop stop-color="#9B42DA" offset="0%"></stop>
+	        <stop stop-color="#51509C" offset="100%"></stop>
+	    </linearGradient>
+	</defs>
+  <g id="skew" transform="translate(291.500000, 47.500000) scale(-1, 1) rotate(180.000000) translate(-291.500000, -47.500000) ">
+  	<polygon fill="#51509C"  points="0,42 583,95 0,95 "/>
+  	<polygon fill="url(#linearGradient-1)" opacity="0.2" class="st1" points="0,42 583,95 583,0 0,95 "/>
+  </g>
+</svg>

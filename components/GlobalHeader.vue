@@ -1,14 +1,20 @@
 <template>
 	<div class="header">
-		<div class="logo">
-			devanandb.
+		<div class="container">
+			<div class="logo">
+				devanandb.
+			</div>
 		</div>
 	</div>
 </template>
 
 <style>
 	.header {
+		/*background-image: linear-gradient(232deg, #9b42da, #51509c);*/
 		padding: 40px 0px;
+		position: absolute;
+		left: 0px;
+		width: 100%;
 	}
 
 	.logo {

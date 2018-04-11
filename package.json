@@ -4,8 +4,14 @@
   "description": "Personal portfolio",
   "author": "Devanand",
   "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3001"
+    }
+  },
   "scripts": {
-    "dev": "nuxt & tlapse --every 5m --directory ./screens -- localhost:3000",
+    "dev": "nuxt & tlapse --every 5m --directory ./screens -- localhost:3001",
     "build": "nuxt build",
     "start": "pm2 start ./node_modules/nuxt/bin/nuxt-start -i max --attach",
     "generate": "nuxt generate",
